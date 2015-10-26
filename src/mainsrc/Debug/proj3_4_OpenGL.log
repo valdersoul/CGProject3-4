@@ -1,0 +1,83 @@
+﻿Build started 10/26/2015 9:09:14 AM.
+     1>Project "C:\UF\teaching\CAP5705\prep_assignments\proj3_4_OpenGL\src\mainsrc\proj3_4_OpenGL.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\proj3_4_OpenGL.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\proj3_4_OpenGL.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\cygwin\home\Corey\environmentmap\proj2_raytracer\src\include /IC:\UF\teaching\CAP5705\prep_assignments\proj3_4_OpenGL\src\mainsrc\/../libst/include /IC:\UF\teaching\CAP5705\prep_assignments\proj3_4_OpenGL\src\mainsrc\/../libst/ext/glew/include /IC:\UF\teaching\CAP5705\prep_assignments\proj3_4_OpenGL\src\mainsrc\/include /IC:\UF\teaching\CAP5705\prep_assignments\proj3_4_OpenGL\src\mainsrc\..\librt\include /IC:\UF\teaching\CAP5705\prep_assignments\proj2_raytracer\submit\src\libst\ext\glew\include /I"C:\UF\teaching\CAP5705\prep_assignments\proj3_4_OpenGL\src\libigl\libigl-master\include" /IC:\UF\teaching\CAP5705\prep_assignments\proj3_4_OpenGL\src\libst\ext\glew\include\GL /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D NOMINMAX /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt mainsrc_proj3_4.cpp
+         mainsrc_proj3_4.cpp
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\mainsrc\stglew.h(22): warning C4005: 'GLEW_STATIC' : macro redefinition
+                 c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\mainsrc\mainsrc_proj3_4.cpp(20) : see previous definition of 'GLEW_STATIC'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(172): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(173): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(174): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(175): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(176): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(177): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(178): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(179): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(180): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(181): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(182): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(183): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(184): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(185): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(186): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(187): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(188): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(189): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(190): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(191): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(192): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(193): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(194): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(195): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(196): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(197): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(198): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(199): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(200): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(201): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(202): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(203): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(204): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(205): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(206): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(207): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(208): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(209): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(210): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(211): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\librt\include\defs.h(212): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\mainsrc\mainsrc_proj3_4.cpp(144): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\mainsrc\mainsrc_proj3_4.cpp(180): warning C4101: 'file' : unreferenced local variable
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\mainsrc\mainsrc_proj3_4.cpp(476): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\mainsrc\mainsrc_proj3_4.cpp(477): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\mainsrc\mainsrc_proj3_4.cpp(517): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\mainsrc\mainsrc_proj3_4.cpp(518): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\mainsrc\mainsrc_proj3_4.cpp(575): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\mainsrc\mainsrc_proj3_4.cpp(726): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\mainsrc\mainsrc_proj3_4.cpp(779): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\mainsrc\mainsrc_proj3_4.cpp(1129): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\mainsrc\mainsrc_proj3_4.cpp(1496): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\mainsrc\mainsrc_proj3_4.cpp(1524): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\mainsrc\mainsrc_proj3_4.cpp(1525): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\uf\teaching\cap5705\prep_assignments\proj3_4_opengl\src\mainsrc\mainsrc_proj3_4.cpp(1577): warning C4065: switch statement contains 'default' but no 'case' labels
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\UF\teaching\CAP5705\prep_assignments\proj3_4_OpenGL\src\mainsrc\Debug\proj3_4_OpenGL.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../libst/lib/Debug/ /LIBPATH:../libst/ext/vc2008/lib/Debug/ /LIBPATH:..\lib /LIBPATH:../libst/lib/Debug /LIBPATH:../librt/lib/Debug glut32.lib libpng.lib jpeg.lib zlib.lib freetype231.lib glew.lib librt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\UF\teaching\CAP5705\prep_assignments\proj3_4_OpenGL\src\mainsrc\Debug\proj3_4_OpenGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\UF\teaching\CAP5705\prep_assignments\proj3_4_OpenGL\src\mainsrc\Debug\proj3_4_OpenGL.lib" /MACHINE:X86 /SAFESEH Debug\mainsrc_proj3_4.obj
+         C:\UF\teaching\CAP5705\prep_assignments\proj3_4_OpenGL\src\libst\lib\Debug\libst.lib
+     1>mainsrc_proj3_4.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>glew.lib(glew.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'glew.lib(glew.obj)' or at 'C:\UF\teaching\CAP5705\prep_assignments\proj3_4_OpenGL\src\mainsrc\Debug\vc100.pdb'; linking object as if no debug info
+         proj3_4_OpenGL.vcxproj -> C:\UF\teaching\CAP5705\prep_assignments\proj3_4_OpenGL\src\mainsrc\Debug\proj3_4_OpenGL.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\proj3_4_OpenGL.unsuccessfulbuild".
+         Touching "Debug\proj3_4_OpenGL.lastbuildstate".
+     1>Done Building Project "C:\UF\teaching\CAP5705\prep_assignments\proj3_4_OpenGL\src\mainsrc\proj3_4_OpenGL.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.78
