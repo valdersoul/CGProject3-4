@@ -4,7 +4,7 @@
     // No implementation required
     //------------------------------------------------------------------------------------
 
-
+#include <memory.h>
 
 // STMatrix4.inl
 #ifndef __STMATRIX4_INL__
