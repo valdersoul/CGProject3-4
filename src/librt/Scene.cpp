@@ -96,8 +96,15 @@ void Scene::AddLight(Light lightin)
 // 3. Create a TranfromNode for the light based on the light position
 // 4. Add the TransfromNode and the light to the scene
 //------------------------------------------------------------------------------------
-    
+	LightNode *light = new LightNode();
+	light->Initialize(&lightin);
 
+	STVector3 lposition = lightin.GetPosition();
+	TransformNode *lightTrans = new TransformNode();
+	//lightTrans->Initialize();
+
+	m_pTree->AddChild(light);
+	m_pTree->AddChild(lightTrans);
 //------------------------------------------------------------------------------------
 
 }
@@ -116,7 +123,14 @@ void Scene::AddSurface(Surface *pSurfacein)
 // 3. Create a TranfromNode for the surface based on the surface position
 // 4. Add the TransfromNode and the surface to the scene
 //------------------------------------------------------------------------------------
+	GeometryNode *surface = new GeometryNode();
+	surface->Initialize(pSurfacein);
+	m_pTree->AddChild(surface);
 
+	TransformNode *sTrans = new TransformNode();
+	STVector3 positon = pSurfacein->GetPosition();
+
+	m_pTree->AddChild(sTrans);
 
 //-------------------------------------------------------------------------------------
 }

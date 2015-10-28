@@ -39,3 +39,7 @@ int Surface::FindClosestIntersection(Intersection *pIntersection)
     return(0);
 }
 
+STVector3 Surface::GetPosition(){
+	return m_center;
+}
+
