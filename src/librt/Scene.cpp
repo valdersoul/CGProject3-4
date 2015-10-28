@@ -58,8 +58,6 @@ Scene::Scene(void)
 	CameraNode *cNode = new CameraNode();
 	cNode->Initialize(m_pCamera);
 
-	STVector3 lightPos = GetLightPosition();
-
 	m_pTree->AddChild(cNode);
 
 
