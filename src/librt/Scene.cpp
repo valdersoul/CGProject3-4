@@ -53,6 +53,14 @@ Scene::Scene(void)
 // 4. Add the TransfromNode and the camera to the scene tree
 //------------------------------------------------------------------------------------
    
+	m_pTree = new SceneNode();
+
+	CameraNode *cNode = new CameraNode();
+	cNode->Initialize(m_pCamera);
+
+	STVector3 lightPos = GetLightPosition();
+
+	m_pTree->AddChild(cNode);
 
 
 //-------------------------------------------------------------------------------------
