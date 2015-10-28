@@ -25,6 +25,7 @@ class Surface
 
     virtual bool                    FindIntersection                     (Ray ray, Intersection *pIntersection){ return(false);} 
     int                             FindClosestIntersection             (Intersection *pIntersection);
+	STVector3						GetPosition							();
 
 protected:
     
